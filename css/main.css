@@ -4,8 +4,8 @@
 /* Start the CSS*/
 @font-face {
     font-family: 'abeezeeregular';
-    src: url('abeezee-regular-webfont.woff2') format('woff2'),
-         url('abeezee-regular-webfont.woff') format('woff');
+    src: url('../fonts/abeezee-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abeezee-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'afta_serifregular';
-    src: url('aftaserifthin-regular-webfont.woff2') format('woff2'),
-         url('aftaserifthin-regular-webfont.woff') format('woff');
+    src: url('../fonts/aftaserifthin-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aftaserifthin-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,29 +40,37 @@ body {
 }
 
 h1 {
+	font-family: 'abeezeeregular'
 
 }
 
 h2 {
+	font-family: 'afta_serifregular'
 
 }
 
 h3 {
-
+	font-family: 'abeezeeregular'
+	font-style: italic;
 }
 
 h4 {
+	font-family: 'abeezeeregular'
+	font-style: bold;
 
 }
 
 h5 {
+	font-family: 'afta_serifregular'
 
 }
 
 h6 {
+	font-family: 'abeezeeregular'
 
 }
 
 p {
-
+	font-family: 'afta_serifregular'
+	font-style: italic  bold;
 }
